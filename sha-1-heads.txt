@@ -1,14 +1,23 @@
-		
-		 git cat-file -p master^{tree}
-		
-		100644 blob 2967e8d01b0708b3a754f873682fe65790e8e362    index.html
-		100644 blob 2fcee7113d175a96c02cd673a7f35f1f03e08d9f    main.bash
-		100644 blob 040a9ea3ab3b0133ed1e42bba127a1ff591fc362    main.c
-		100644 blob 050d8d7d7f52366d4ba48ab539433f4da947e7a5    main.c++
-		100644 blob f3572444dae52c0110b3db504f878c8ef753fcb9    main.cs
-		100644 blob 94296e9669414776a5357b88bfaa16a66bab4108    main.html
-		100644 blob 16348bac602f13f8abf679d1e0534c9d2a504a2f    main.in
-		100644 blob 351bcc4782eeae0f769ef5614e52f17a47840159    main.java
-		100644 blob ad7c2876808fafc860f5b40398e7200429efca7d    main.js
-		100644 blob 1d8ced82e88db2c35020b72d677dae98e79da74a    main.logo
-		100644 blob e287f519755fcb6c3121fcdf50b37315484ba6ab    main.php
+$ git show-ref
+48ea0b042492761d61be5ed81f1f23924813826f refs/heads/C
+ed78f2b1167c17e1320d7ad1bced08fc60839346 refs/heads/C#
+26dcbd5c92a11de53d869b16fcda5a55fe69d981 refs/heads/C++
+30c9851ec51ee11a392c92e2cce2747da8bdeee7 refs/heads/Java
+00763c63a59abb7fd712ab144e4fe75240d6603f refs/heads/Js
+10ce3bc02488fc8182c1f9d8175fac1001b854bd refs/heads/bash
+679298fc6d212f4b73239d1907dcce23a5fd5574 refs/heads/html
+da2cb4753d9e4d614488c6d51407022e0a96d20f refs/heads/logo
+c9fea09f1f4f230d244df4024788d64dea095efd refs/heads/master
+b8bda038c7cb5bd0e620533d83ce0b182ccb6b17 refs/heads/pascal
+4d1c0f0d4a571f0fa6a150797ff894293d7d122e refs/heads/php
+48ea0b042492761d61be5ed81f1f23924813826f refs/remotes/origin/C
+ed78f2b1167c17e1320d7ad1bced08fc60839346 refs/remotes/origin/C#
+26dcbd5c92a11de53d869b16fcda5a55fe69d981 refs/remotes/origin/C++
+30c9851ec51ee11a392c92e2cce2747da8bdeee7 refs/remotes/origin/Java
+00763c63a59abb7fd712ab144e4fe75240d6603f refs/remotes/origin/Js
+10ce3bc02488fc8182c1f9d8175fac1001b854bd refs/remotes/origin/bash
+679298fc6d212f4b73239d1907dcce23a5fd5574 refs/remotes/origin/html
+da2cb4753d9e4d614488c6d51407022e0a96d20f refs/remotes/origin/logo
+c9fea09f1f4f230d244df4024788d64dea095efd refs/remotes/origin/master
+b8bda038c7cb5bd0e620533d83ce0b182ccb6b17 refs/remotes/origin/pascal
+4d1c0f0d4a571f0fa6a150797ff894293d7d122e refs/remotes/origin/php
